@@ -90,6 +90,19 @@ class _QuizPageState extends State<QuizPage> {
             ),
           ),
         ),
+        // Expanded(
+        //   //flex: 5,
+        //   child: Center(
+        //     child: Text(
+        //       quizBrain.getCorrectAnsText2() ?? 'Ans is here',
+        //       textAlign: TextAlign.center,
+        //       style: (TextStyle(
+        //         fontSize: 25.0,
+        //         color: Colors.white,
+        //       )),
+        //     ),
+        //   ),
+        // ),
         Expanded(
           child: Padding(
             padding: const EdgeInsets.all(8.0),
